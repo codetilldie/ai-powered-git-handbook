@@ -12,10 +12,46 @@
 
 ## 目录
 
-- [第一章：Git 入门](./handbook/01-getting-started.md)
-- [第二章：Git 核心概念](./handbook/02-core-concepts.md)
-- [第三章：Git 高级功能](./handbook/03-advanced-features.md)
-- [第四章：团队协作与最佳实践](./handbook/04-collaboration-and-best-practices.md)
-- [第五章：常见问题与解决方案 (FAQ)](./handbook/05-faq.md)
-- [附录：资源与工具](./handbook/06-appendix-resources.md)
-- [第七章：从数据库视角理解 Git](./handbook/07-git-as-a-database.md)
+- **[第一章：Git 入门](./handbook/01-getting-started.md)**
+  - 1.1 什么是 Git？
+  - 1.2 Git 的安装与配置
+  - 1.3 开启你的 Git 之旅：`init` 与 `clone`
+  - 1.4 核心工作流：三大区域
+  - 1.5 基础命令：`status`, `add`, `commit`, `log`, `diff`
+
+- **[第二章：Git 核心概念](./handbook/02-core-concepts.md)**
+  - 2.1 理解分支 (Branch)
+  - 2.2 合并分支：merge 与 rebase
+  - 2.3 远程仓库：remote, push & pull
+  - 2.4 使用标签 (Tag)
+
+- **[第三章：Git 高级功能](./handbook/03-advanced-features.md)**
+  - 3.1 储藏 (Stash)
+  - 3.2 交互式变基 (Interactive Rebase)
+  - 3.3 子模块 (Submodules) 与子树 (Subtree)
+  - 3.4 Git Hooks
+  - 3.5 cherry-pick, reflog 等高级命令
+
+- **[第四章：团队协作与最佳实践](./handbook/04-collaboration-and-best-practices.md)**
+  - 4.1 流行的 Git 工作流
+  - 4.2 编写清晰的 Commit Message
+  - 4.3 Code Review 最佳实践 (Pull Request)
+  - 4.4 如何处理合并冲突
+
+- **[第五章：常见问题与解决方案 (FAQ)](./handbook/05-faq.md)**
+  - 5.1 如何撤销一次错误的提交？
+  - 5.2 `.gitignore` 文件为什么不起作用？
+  - 5.3 如何修改历史提交信息？
+
+- **[第六章：深入底层 - 从数据库视角理解 Git](./handbook/06-git-as-a-database.md)**
+  - 6.1 `objects` (对象表) - Git 的数据核心
+  - 6.2 `refs` (引用表) - 人类可读的指针
+  - 6.3 `HEAD` (头指针表) - “你在这里”的指示牌
+  - 6.4 `index` (索引/暂存区表) - 下一次提交的“购物篮”
+  - 6.5 复杂操作的数据库视角
+
+- **[第七章：附录 - 资源与工具](./handbook/07-appendix-resources.md)**
+  - 官方与权威文档
+  - 在线练习平台
+  - GUI 客户端工具推荐
+  - 社区与支持
